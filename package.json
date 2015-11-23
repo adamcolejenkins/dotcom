@@ -1,11 +1,11 @@
 {
-  "name": "angularjs-gulp-browserify-boilerplate",
-  "version": "1.1.1",
-  "author": "Jake Marsh <jakemmarsh@gmail.com>",
-  "description": "Boilerplate using AngularJS, SASS, Gulp, and Browserify while also utilizing best practices.",
+  "name": "adam-cole-jenkins",
+  "version": "1.0.0",
+  "author": "Adam Cole Jenkins <adamcole83@gmail.com>",
+  "description": "My personal portfolio website complete with a client portal. You'd be amazed what's back there, take a look!",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakemmarsh/angularjs-gulp-browserify-boilerplate.git"
+    "url": "https://github.com/adamcolejenkins/dotcom.git"
   },
   "keywords": [
     "express",
@@ -16,7 +16,11 @@
     "karma",
     "jasmine",
     "protractor",
-    "boilerplate"
+    "boilerplate",
+    "porfolio",
+    "harvest",
+    "project",
+    "management"
   ],
   "private": true,
   "engines": {
