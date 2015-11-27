@@ -1,0 +1,37 @@
+{
+  "name": "angularjs-gulp-browserify-boilerplate",
+  "description": "Boilerplate using AngularJS, SASS, Gulp, and Browserify while also utilizing best practices.",
+  "main": "",
+  "authors": [
+    "Jake Marsh <jakemmarsh@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "express",
+    "gulp",
+    "browserify",
+    "angular",
+    "sass",
+    "karma",
+    "jasmine",
+    "protractor",
+    "boilerplate"
+  ],
+  "homepage": "https://github.com/StrikeForceZero/dotcom",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "fullpage.js": "fullpage#~2.7.4",
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-mocks": "~1.4.8",
+    "angular-fullpage.js": "~0.2.0"
+  }
+}

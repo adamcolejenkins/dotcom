@@ -3,7 +3,22 @@
 
 body {
   font-family: Helvetica, sans-serif;
-  color: $font-color--light;
-  background-color: $background--dark;
-  padding: $half-space;
+  color: $font-color--dark;
+  background-color: $background--light;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+
+  /* removes margin collapse on sections */
+  & {
+    display: inline-block;
+    width: 100%;
+  }
+  /* added padding that was removed from body */
+  & {
+    padding: $half-space;
+  }
+  
 }
