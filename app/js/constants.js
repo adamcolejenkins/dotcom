@@ -19,14 +19,6 @@ const AppSettings = {
     github: 'https://github.com/adamcolejenkins'
   },
   
-  parse: {
-    appId: "B67OuWGJAQ5cYEcav5nWsZirSIgPE7NDqCchgxjL",
-    restApiKey: "u6BT4Va1rO7B3lxMkNnRZSAcEyjExzRVnOUEggWR"
-  },
-  
-  harvest: {
-    
-  }
 };
 
 export default AppSettings;
