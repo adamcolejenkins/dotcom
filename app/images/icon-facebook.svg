@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="12px" height="23px" viewBox="0 0 12 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.2 (15857) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Menu" sketch:type="MSArtboardGroup" transform="translate(-996.000000, -639.000000)" fill="#DB1D72">
+            <path d="M1007.84377,639.589261 C1007.48216,639.53569 1006.23662,639.428547 1004.79019,639.428547 C1001.7634,639.428547 999.687506,641.276763 999.687506,644.66516 L999.687506,647.584807 L996.272323,647.584807 L996.272323,651.549097 L999.687506,651.549097 L999.687506,661.714288 L1003.78572,661.714288 L1003.78572,651.549097 L1007.18751,651.549097 L1007.70984,647.584807 L1003.78572,647.584807 L1003.78572,645.053554 C1003.78572,643.915159 1004.09376,643.12498 1005.74108,643.12498 L1007.84377,643.12498 L1007.84377,639.589261 Z" id="icon-facebook" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

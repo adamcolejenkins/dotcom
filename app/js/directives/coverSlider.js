@@ -11,8 +11,6 @@ function CoverSliderDirective() {
       posts: '='
     },
     link: (scope, element) => {
-      
-      $(element).fullpage();
             
     }
   };

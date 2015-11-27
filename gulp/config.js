@@ -65,6 +65,12 @@ export default {
     karma: 'test/karma.conf.js',
     protractor: 'test/protractor.conf.js'
   },
+  
+  s3Credentials: {
+    key: 'AKIAJEZWL3UIPXB3YMDQ',
+    secret: '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',
+    bucket: 'adamcolejenkins.com'
+  },
 
   init: function() {
     this.views.watch = [

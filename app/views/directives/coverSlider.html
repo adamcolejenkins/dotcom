@@ -1,0 +1,27 @@
+<div id="cover-slider" class="fullpage-wrapper">
+  
+  <section class="cover-section" data-anchor="{{ post.slug }}" ng-repeat="post in posts">
+    <div class="fullscreen-cover" id="cover-{{ cover.slug }}">
+      
+      <!-- View Project Button -->
+      <div class="view-project">
+        <a ui-sref="site.posts.single({ slug: cover.slug })">View Project</a>
+      </div>
+      
+      <!-- Cover Image -->
+      <div class="cover-image"></div>
+      
+      <!-- Content -->
+      <div class="container">
+        <div class="row">
+          
+          <!-- Cover Headline: Logo or Excerpt -->
+          <div class="cover-headline"></div>
+          
+        </div>
+      </div>
+      
+    </div>
+  </section><!--/ .cover-section -->
+  
+</div><!--/ #cover-slider -->

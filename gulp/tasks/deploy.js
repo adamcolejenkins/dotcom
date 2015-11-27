@@ -1,9 +1,13 @@
 'use strict';
 
-import gulp from 'gulp';
+import config from '../config';
+import gulp   from 'gulp';
+import s3     from 'gulp-s3-deploy';
 
 gulp.task('deploy', ['prod'], function() {
 
-  // Any deployment logic should go here
+  // Upload build to Amazon S3
+  return gulp.src(config.buildDir + '**')
+    .pipe(s3(config.s3Credentials));
 
 });

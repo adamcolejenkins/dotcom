@@ -1,0 +1,29 @@
+<div class="modal-dialog">
+  <div class="modal-content">
+    <nav id="menu">
+      
+      <!-- Branding -->
+      <a ui-sref="Site.Home" class="navbar-brand">
+        <img ng-src="images/acj-logo-text.svg" alt="Adam Cole Jenkins" class="menu-logo">
+      </a>
+      
+      <!-- Primary Menu -->
+      <div class="navbar-links">
+        <ul class="list">
+          <li><a ui-sref="Site.About">About</a></li>
+          <li><a ui-sref="Site.Work">Work</a></li>
+          <li><a ui-sref="Site.Planner">Plan</a></li>
+        </ul>
+        <ul class="follow-links list-inline">
+          <li ng-repeat="link in site.socialLinks">
+            <a href="{{ link.url }}" class="social-link {{ link.name }}" target="_blank" title="Follow me on {{ link.name }}">
+              <img ng-src="images/icon-{{ link.name }}.svg" alt="{{ link.name }}">
+            </a>
+          </li>
+        </ul>
+        <p class="client-login"><a ui-sref="App.Dashboard">Clients</a></p>
+      </div>
+      
+    </nav>
+  </div>
+</div>

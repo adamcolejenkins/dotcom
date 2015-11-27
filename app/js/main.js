@@ -1,12 +1,13 @@
 'use strict';
 
+import $        from 'jquery';
 import angular  from 'angular';
 import harvest  from 'harvest';
-import fullpage from 'fullpage.js';
 
 // angular modules
 import 'angular-ui-router';
 import 'angular-parse';
+import 'angular-fullpage.js';
 import './templates';
 import './filters';
 import './controllers';
@@ -16,8 +17,9 @@ import './directives';
 // create and bootstrap application
 const requires = [
   'ui.router',
-  'templates',
+  'fullPage.js',
   'Parse',
+  'templates',
   'app.filters',
   'app.controllers',
   'app.services',

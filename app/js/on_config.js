@@ -235,7 +235,7 @@ function OnConfig($stateProvider, $locationProvider, $urlRouterProvider, ParsePr
   $urlRouterProvider.otherwise('/');
   
   // Initialize Parse
-  ParseProvider.initialize(AppSettings.parse.appId, AppSettings.parse.restApiKey);
+//   ParseProvider.initialize(AppSettings.parse.appId, AppSettings.parse.restApiKey);
   
   
 

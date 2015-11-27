@@ -6,8 +6,6 @@ function SiteCtrl(AppSettings) {
   // ViewModel
   const vm = this;
   
-  console.log($);
-  
   // Global social links, can be used anywhere in site
   vm.socialLinks = [];
   angular.forEach(AppSettings.social, function (value, key) {
