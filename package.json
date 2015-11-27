@@ -73,5 +73,21 @@
     "test": "karma start test/karma.conf.js",
     "preprotractor": "npm install && webdriver-manager update",
     "protractor": "protractor test/protractor.conf.js"
+  },
+  "browser": {
+    "jquery": "./bower_components/jquery/dist/jquery.js",
+    "angular": "./bower_components/angular/angular.js"
+  },
+  "browserify-shim": {
+    "jquery": "$",
+    "angular": { "exports": "angular", "depends": [ "jquery" ] }
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "dependencies": {
+    "browserify-shim": "^3.8.11"
   }
 }
