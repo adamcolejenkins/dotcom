@@ -1,9 +1,12 @@
 'use strict';
 
-import angular from 'angular';
+import angular  from 'angular';
+import harvest  from 'harvest';
+import fullpage from 'fullpage.js';
 
 // angular modules
 import 'angular-ui-router';
+import 'angular-parse';
 import './templates';
 import './filters';
 import './controllers';
@@ -14,6 +17,7 @@ import './directives';
 const requires = [
   'ui.router',
   'templates',
+  'Parse',
   'app.filters',
   'app.controllers',
   'app.services',
