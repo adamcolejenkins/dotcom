@@ -1,6 +1,9 @@
 'use strict';
 
+import $ from 'jquery'; //we need to load jquery first so angular boots with jquery selector support (angular.element(...))
 import angular from 'angular';
+import 'fullpage.js'; //load fullpage before angular-fullpage
+import 'angular-fullpage.js';
 
 // angular modules
 import 'angular-ui-router';
@@ -17,7 +20,8 @@ const requires = [
   'app.filters',
   'app.controllers',
   'app.services',
-  'app.directives'
+  'app.directives',
+  'fullPage.js'
 ];
 
 // mount on window for testing
